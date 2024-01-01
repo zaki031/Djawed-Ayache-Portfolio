@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+
+.words span{
+    display: block;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 110px;
+    font-style: italic;
+    font-weight: 400;
+    animation: words 10s infinite;
+}
+
+
+
+.txt-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+ 
+  
+  .words {
+    height: 144px;
+    line-height: 138px;
+    overflow: hidden;
+    margin-left: 15px;
+  }
+  
+  .words span {
+    margin: 0;
+    position: relative;
+    animation: animation 12s infinite both;
+  }
+  
+  @keyframes animation {
+    0%{
+        top: -22px;
+    }
+    10%{
+        top: -22px;
+    }
+    20% {
+      top: -154px;
+    }
+    40% {
+      top: -300px;
+    }
+    60% {
+      top: -440px;
+    }
+    80% {
+      top: -575px;
+    }
+    100% {
+      top: -20px;
+    }
+
+}

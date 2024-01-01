@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+  overflow-y: visible;
+}
+.container{
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+
+}
+.container::-webkit-scrollbar {
+  width: 0; 
+}
+
+.container {
+  -ms-overflow-style: none; 
+}
+
+.home{
+  transition: .8s;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+}
+body {
+  background-color: #000;
+}
+
+.home{
+  position: absolute;
+  top: 50%;   
+  transform: translate(0, -50%);
+
+}
+.about{
+  position: absolute;
+  top: 100%;
+  height: 100vh;
+  position: absolute;
+  color: white;
+}
+
+.page_container{
+    display: flex;
+}
+#name {
+  color: #80e037;
+  font-family: League Spartan;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 2.211px;
+  margin: 0;
+}
+.container{
+    margin-top: 30px;
+
+  
+}
+#andi {
+  color: #80e037;
+  font-family: League Spartan;
+  font-size: 130px;
+  font-weight: 800;
+  letter-spacing: 3.686px;
+  margin: 0;
+}
+
+.nav_title {
+  transition: 1s;
+  color: #555;
+  font-family: League Spartan;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%; /* 62.4px */
+  letter-spacing: 0.96px;
+}
